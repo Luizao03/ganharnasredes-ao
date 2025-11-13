@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Submeter Prova</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top"><a href="tarefas.html">← Voltar</a></header>
+  <main class="container">
+    <h2>Submeter Prova</h2>
+    <label>Link do post / perfil</label>
+    <input id="postUrl">
+
+    <label>Comentário (se aplicável)</label>
+    <input id="commentText">
+
+    <label>Screenshot / prova (imagem)</label>
+    <input id="screenshot" type="file" accept="image/*">
+
+    <button id="submitProof">Enviar Prova</button>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-storage-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/submissao.js"></script>
+  </main>
+</body>
+</html>

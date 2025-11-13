@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Perfil - GanharNasRedes</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top"><a href="index.html">← Início</a></header>
+  <main class="container">
+    <h2>O teu Perfil</h2>
+
+    <label>Nome de utilizador (site)</label>
+    <input id="displayName">
+
+    <label>TikTok (username)</label>
+    <input id="tiktokUser">
+
+    <label>Instagram (username)</label>
+    <input id="instaUser">
+
+    <label>Facebook (username)</label>
+    <input id="fbUser">
+
+    <label>Telefone (para transferências)</label>
+    <input id="phone" disabled>
+
+    <label>IBAN (opcional)</label>
+    <input id="iban">
+
+    <button id="saveProfile">Guardar Perfil</button>
+    <button id="requestPayout">Solicitar Saque</button>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-firestore-compat.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/perfil.js"></script>
+  </main>
+</body>
+</html>
